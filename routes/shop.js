@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 
 const rootDir = require('../util/path');
-const adminData = require('./admin');
+const adminData = require('../controllers/product-list');
 
 const router = express.Router();
 
